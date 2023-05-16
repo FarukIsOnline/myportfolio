@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farukxyz Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fc899a59fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="navbar">
+        <nav>
+            <img src="img/logo.png" alt="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark menu" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars menu" onclick="openmenu()"></i>
+        </nav>
+        <audio autoplay loop>
+            <source src="img/sound.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+          </audio>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax-content">
+            <div id="header" class="section">
+                <div class="container ">
+                    <div >
+                        <div class="header-text">
+                            <p id="changing-paragraph">UI/UX Designer</p>
+                            <h1>Hi, I'm <span>Alfa Rukhan</span><br>
+                                From Indonesia</h1>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>    
+<!--------------about----------->
+<div id="about" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About Me</h1>
+                <p>Halo! Saya Muhammad Yuvin Alfarukhan, seorang mahasiswa Administrasi Publik di Universitas Negeri Yogyakarta. Saya lahir di Wonosobo, Jawa Tengah, dan saat ini berusia 19 tahun.
+                    Saya memiliki semangat yang tinggi dalam menjalani perjalanan pendidikan ini. Saya percaya bahwa pendidikan adalah kunci untuk mencapai impian dan memberikan kontribusi positif bagi masyarakat.
+                    Selain studi, saya juga memiliki minat dalam seni dan kreativitas. Lukisan dan fotografi adalah cara bagi saya untuk mengekspresikan diri dan menemukan inspirasi dalam kehidupan sehari-hari.
+                    Saya berkomitmen untuk terus berkembang dan menjadikan diri saya sebagai agen perubahan yang mampu memberikan dampak positif bagi lingkungan sekitar. Saya berharap dapat berbagi pengalaman inspiratif dengan Anda.
+                    Terima kasih telah mengunjungi profil saya, mari kita bersama-sama menjelajahi perjalanan yang penuh inspirasi dan perubahan positif!
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Design Web</li>
+                        <li><span>Web Development</span><br>Design Web</li>
+                        <li><span>Design graphic</span><br>Design Web</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Curent</span><br>Work At Janoer.Koening Photo Studio</li>
+                        <li><span>2021 - 2022</span><br>Intreship at Janoe.Koening Photo Studio</li>
+                        <li><span>2019 - 2021</span><br>Frelance at Foto Bandung</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>University</span><br>Administration Public at Yogyakarta State University</li>
+                        <li><span>Senior High School</span><br>SMA N 2 Purworejo</li>
+                        <li><span>Junior High School</span><br>SMP N 12 Purworejo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------services------------>  
+<div id="services" class="section">
+    <div id="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            <div class="service">
+                <i class="fa-solid fa-code"></i>
+                <h2>Graphic Designer</h2>
+                <p>Create visually appealing designs that communicate effectively.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-code-compare"></i>
+                <h2>Photographer</h2>
+                <p>Capture memorable moments through the lens with a unique perspective.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-camera"></i>
+                <h2>Programmer</h2>
+                <p>Transform ideas into functional and innovative software solutions.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------portfolio------------>
+<div id="portfolio" class="section">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Design</h3>
+                    <p>Create visually stunning designs that captivate audiences.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Photography</h3>
+                    <p>Capture moments and emotions through the lens with artistic flair.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <p>Create user-friendly and visually appealing websites that drive results.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------------contact------------>
+<div id="contact" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>alfayuvin7@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>087877991993</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/alfarukhannn/" target="_blank"i class="fa-brands fa-instagram"></i ></a>
+                    <a href="https://www.youtube.com/@alfarukhan"i target="_blank" class="fa-brands fa-youtube"></i></a>
+                    <a href="https://github.com/FarukIsOnline"i target="_blank" class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/alfa.rukhan12"i target="_blank" class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="img/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formspree.io/f/mgebqpoa" method="POST">
+                    <input type="text" name="name" placeholder="Your Name"required>
+                    <input type="email" name="email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6"placeholder="Your Message"required></textarea>
+                    <button type="submit" class="btn3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">Copyright <i class="fa-regular fa-copyright"></i> 2023 <br> Made with <i class="fa-sharp fa-solid fa-heart fa-shake" style="color: #ff004f;"></i> by Farukxyz </div>
+</div> 
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove('active-link');
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+    if (window.matchMedia("(max-width: 600px)").matches) {
+    document.getElementById("header").style.backgroundImage = "url(img/phone-background.jpg)";
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+  
+    function openmenu() {
+      sidemenu.style.right = "0px";
+    }
+  
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+<script>
+  var changingParagraph = document.getElementById("changing-paragraph");
+  var texts = ["Graphic Desainer", "Mahasiswa", "Editor","Photografer"];
+  var currentIndex = 0;
+
+  function changeText() {
+    changingParagraph.textContent = texts[currentIndex];
+    currentIndex = (currentIndex + 1) % texts.length;
+  }
+
+  setInterval(changeText, 500); // Mengubah teks setiap 0,5 detik (500 milidetik)
+
+
+  // Mendapatkan elemen navbar
+var navbar = document.querySelector('nav');
+
+// Mendapatkan tinggi navbar
+var navbarHeight = navbar.offsetHeight;
+
+// Mendapatkan posisi awal scroll
+var scrollPos = 0;
+
+// Fungsi untuk menambahkan atau menghapus kelas CSS
+function toggleNavbar() {
+  if (window.pageYOffset > scrollPos) {
+    // Scroll ke bawah, tambahkan kelas 'fixed-navbar'
+    navbar.classList.add('fixed-navbar');
+    document.body.style.paddingTop = navbarHeight + 'px';
+  } else {
+    // Scroll ke atas, hapus kelas 'fixed-navbar'
+    navbar.classList.remove('fixed-navbar');
+    document.body.style.paddingTop = '0';
+  }
+
+  // Memperbarui posisi scroll
+  scrollPos = window.pageYOffset;
+}
+
+// Mendaftarkan event listener untuk scroll
+window.addEventListener('scroll', toggleNavbar);
+
+document.addEventListener("DOMContentLoaded", function() {
+    var parallaxContainers = document.querySelectorAll(".parallax-container");
+
+    function parallaxScroll() {
+        for (var i = 0; i < parallaxContainers.length; i++) {
+            var container = parallaxContainers[i];
+            var content = container.querySelector(".parallax-content");
+            var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+            content.style.transform = "translate3d(0, " + scrollPosition * 0.5 + "px, 0)";
+        }
+    }
+
+    window.addEventListener("scroll", parallaxScroll);
+});
+</script>
+
+
+
+</body>
+</html>
